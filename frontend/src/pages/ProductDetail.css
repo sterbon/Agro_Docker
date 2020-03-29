@@ -1,0 +1,102 @@
+.productDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #f6fdfa
+}
+
+.productDetail-text{
+    margin: auto;
+    margin-top: 0.5rem;
+    flex-basis: 50%;
+    padding: 3rem 1rem;
+}
+
+.productDetail
+.ui.image{
+    box-shadow: 0 2px 8px rgba(5, 35, 80, .12), 0 3px 3px rgba(5, 35, 80, .16);
+    /* padding: 0.6rem; */
+    margin: auto;
+    height: 500px;
+    width: 80%;
+    object-fit: cover;
+}
+
+.productDetail-container{
+    margin: auto;
+    width: 48%;
+    padding: 2.7rem 4rem 4rem 0rem;
+    text-align: left;
+}
+
+.productName{
+    margin: 1rem 0;
+    padding: 0 0.5rem;
+    font: 600 39px 'Roboto';
+    color: #052350;
+}
+
+.addToCart .ui.button{
+    padding: .8rem;
+    font: 500 15px 'Roboto';
+    letter-spacing: 1px;
+    border-radius: 0px;
+    background-color: transparent;
+    border: 1.3px solid #ee6e6c;
+    color: #ee6e6c;
+    box-shadow: none;
+}
+
+.addToCart .ui.button:hover{
+    background-color: #ee6e6c !important;
+    border: 1.3px solid #052350;
+    color: white !important;
+    box-shadow: none !important;
+}
+
+.selectProducer{
+    margin-top: 2rem;
+}
+
+.selectProducer h4{
+    padding: 0 0 0 0.5rem;
+    color: #052350;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.productQuantity .ui.input, .selectProducer .ui.dropdown{
+    width: 70%;
+    outline: none;
+    font-size: 14px;
+    margin: 0 0 0 5rem
+
+}
+
+.misc-header{
+    margin: 0;
+    padding: 0 0.5rem;
+    padding-top: 2.8rem;
+    font: 600 17px 'Roboto';
+    color: #052350;
+}
+
+.productMisc{
+    display: flex;
+    padding: 2rem 0.5rem 1rem 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.productMisc-label p{
+    width: 250px;
+    font: 500 14px 'Roboto';
+    color: #052350;
+}
+
+.productMisc-text p{
+    font: 600 14px 'Nunito';
+    color: #052350;
+    letter-spacing: 0.8px;
+}

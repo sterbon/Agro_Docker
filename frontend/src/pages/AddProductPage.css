@@ -1,0 +1,90 @@
+
+
+.addProduct{
+    background: #f6fdfa;
+}
+
+.addCrop-container{
+    margin: 2rem auto;
+    width: 50%;
+    padding: 1rem;
+    background:white !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+}
+
+.addCrop-container h2{
+    font-size: 34px;
+    font-family: 'Roboto';
+    color: #052350;
+    text-align: center;
+    font-weight: 500;
+    border-bottom: 1.7px solid #ee6e6c;
+    width: fit-content;
+    padding: 0 1.3rem;
+    margin: auto;
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
+}
+
+.addCrop-form{
+    padding: 2rem 4rem;
+    /* box-shadow: 0 19px 38px rgba(47, 72, 88, .30), 0 15px 12px rgba(47, 72, 88, .22); */
+}
+
+.crop-price, .crop-name, .crop-amount{
+    margin: 2rem 0;
+}
+
+.crop-price label, .crop-name label, .crop-amount label{
+    font-family: 'Roboto' !important;
+    color: #052350 !important;
+}
+
+.crop-price input, .crop-name input, .crop-amount input{
+    padding: .7rem 1rem;
+    width: 90%;
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1.5px solid #bdc1c0 !important;
+    color: #052350 !important;
+    font-family: 'Nunito' !important;
+}
+
+.crop-price input:focus, .crop-name input:focus, .crop-amount input:focus{
+    border: 1.5px solid #052350 !important;
+}
+
+.crop-descrip textarea{
+    padding: .7rem 1rem;
+    width: 90%;
+    outline: none;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1.5px solid #052350;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #bdc1c0;
+    letter-spacing: 0.8px;
+}
+input[type=date]:invalid::-webkit-datetime-edit {
+    color: #bdc1c0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.submitcrop .cta{
+    padding: 14px 40px !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    background: transparent !important;
+    border: 1.3px solid #ee6e6c !important;
+    cursor: pointer !important;
+    color: #ee6e6c !important;
+    border-radius: 5px !important;
+    transition: all 0.3s ease 0s !important;
+    outline: none !important;
+    margin: 0;
+}

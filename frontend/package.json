@@ -1,0 +1,45 @@
+{
+  "name": "foodgrain-scm",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "eosjs": "^20.0.3",
+    "eosjs-ecc": "^4.0.7",
+    "node-fetch": "^2.6.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.0",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-saga": "^1.1.1",
+    "scatterjs-core": "^2.7.18",
+    "scatterjs-plugin-eosjs": "^1.5.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.1",
+    "unsplash-js": "^6.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+.signUpContainer{
+    padding: 5rem;
+    background-color: #f6fdfa;
+}
+
+.form-container{
+    width: 60%;
+}
+
+.signUp .heading{
+    font-size: 52px;
+}
+
+.signUp .sub-heading{
+    line-height: 1.6em;
+    padding-top: .3rem;
+    font-weight: 600;
+}
+
+.userName{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: space-between;
+}
+
+.firstName, .lastName{
+    width: 100%;
+    color: #052350;
+    margin-bottom: .8rem
+}
+
+.userEmail, .userMobile, .userAdhaar{
+    padding: 1rem 0;
+    color: #052350;
+}
+
+.firstName label, .lastName label, .userEmail label, .userMobile label, .userAdhaar label{
+    font-family: 'Roboto';
+}
+
+.firstName input, .lastName input{
+    padding: .7rem 1rem;
+    width: 90%;
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #bdc1c0;
+    font-family: 'Nunito';
+}
+
+.userEmail input, .userMobile input, .userAdhaar input{
+    padding: .7rem 1rem;
+    width: 95%;
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #bdc1c0;
+    font-family: 'Nunito';
+}
+
+.firstName input:focus, .lastName input:focus, .userEmail input:focus, .userMobile input:focus, .userAdhaar input:focus
+{
+    border: 1px solid #052350;
+}
+
+.continue{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.continue .continue-cta{
+    padding: 14px 40px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    background: transparent;
+    border: 1.3px solid #052350 ;
+    cursor: pointer;
+    color: #052350;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    margin-right: 2rem;
+
+}
+
+.continue-cta:hover{
+    box-shadow: 0 2px 8px rgba(47, 72, 88, .30), 0 3px 3px rgba(47, 72, 88, .22);
+}
+

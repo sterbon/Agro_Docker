@@ -1,0 +1,147 @@
+.order-container{
+    height: 100%;
+    background-color: #f6fdfa;
+    position: relative;
+}
+
+.ui.header {
+    font-size: 41px !important;
+    font-family: 'Roboto';
+    color: #052350;
+    text-align: center;
+    font-weight: 500;
+    border-bottom: 1.7px solid #ee6e6c;
+    width: fit-content;
+    padding: 3rem 1rem 0 1rem; 
+    margin: auto;
+    letter-spacing: 2px;
+}
+
+.ui.segment{
+    border: 1.3px solid #f6fdfa ;
+    border-radius: 0px;
+    box-shadow: none !important;
+}
+
+.ui.segment:hover{
+    border: 1.3px solid #f6fdfa;
+    transition: ease-in-out .3s;
+    box-shadow: 0 1px 3px rgba(47, 72, 88, .30), 0 3px 3px rgba(47, 72, 88, .22) !important;
+
+} 
+
+.order-container .else-text {
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 5rem 0;
+    font-family: 'Roboto';
+    color: #ee6e6c;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.orderCard {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+#orderCard-container{
+    padding: 0 .5em;
+}
+
+#order-details{
+    padding: 1rem 0.6rem 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#order-details h4{
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ee6e6c;
+}
+
+#btn-container{
+    margin-top: .7rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.ui.button{
+    background: #ee6e6c;
+    color: white;
+    font-size: 12px;
+}
+
+.ui.button:hover{
+    background: #052350;
+    color: white;
+}
+
+.orderDate-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5rem 0 0;
+    padding: 0 0.5rem;
+}
+
+.orderDate-container h4 {
+    margin: 1.5rem 0 0 0;
+    color: #052350;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.orderDate-container span{
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+
+.order-img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding: 0 0.5rem;
+    /* border: 1px solid cadetblue */
+}
+
+.order-img-container img{
+    border-radius: 3px;
+    margin-left: 1rem;
+}
+
+#orderProduct-details{
+    text-align: left;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#orderProduct-details h4 {
+    color: #052350;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+#orderProduct-details span{
+    font-family: 'Nunito';
+    font-weight: 600;
+}
